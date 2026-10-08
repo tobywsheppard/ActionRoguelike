@@ -17,6 +17,7 @@ ARogueCharacter::ARogueCharacter()
 	
 	SpringArmComponent = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArmComp"));
 	SpringArmComponent->SetupAttachment(RootComponent);
+	SpringArmComponent->bUsePawnControlRotation = true;
 	
 		
 	CameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("CameraComp"));
@@ -36,9 +37,29 @@ void ARogueCharacter::Move(const FInputActionValue& InValue)
 {
 	FVector2D InputValue = InValue.Get<FVector2D>();
 	
+	
+	
 	FVector MoveDirection = FVector(InputValue.X, InputValue.Y, 0.0f);
 	
-	AddMovementInput(MoveDirection);
+	FRotator ControlRot = GetControlRotation();
+	ControlRot.Pitch = 0.0f;
+	
+	// Forward / Back
+	AddMovementInput(ControlRot.Vector(), InputValue.X);
+	
+	// SideWays
+	FVector RightDirection = ControlRot.RotateVector(FVector::RightVector);
+	AddMovementInput(RightDirection, InputValue.Y);
+	
+}
+
+void ARogueCharacter::Look(const FInputActionInstance& InValue)
+{
+
+	FVector2D InputValue = InValue.GetValue().Get<FVector2D>();
+	
+	AddControllerPitchInput(InputValue.Y);
+	AddControllerYawInput(InputValue.X);
 }
 
 // Called every frame
@@ -53,6 +74,8 @@ void ARogueCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	
 	UEnhancedInputComponent* EnhancedInput = Cast<UEnhancedInputComponent>(PlayerInputComponent);
+	
 	EnhancedInput->BindAction(Input_Move, ETriggerEvent::Triggered, this, &ARogueCharacter::Move);
+	EnhancedInput->BindAction(Input_Look, ETriggerEvent::Triggered, this, &ARogueCharacter::Look);
 }
 
