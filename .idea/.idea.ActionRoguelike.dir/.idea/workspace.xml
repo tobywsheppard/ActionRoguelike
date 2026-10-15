@@ -15,9 +15,14 @@
   <component name="ChangeListManager">
     <list default="true" id="8c3361fa-3ea8-447e-b6a3-e20550f2b5b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ActionRoguelike.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActionRoguelike.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ActionRoguelike/BP_PlayerCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ActionRoguelike/BP_PlayerCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ActionRoguelike/Input/IMC_DefaultPlayer.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ActionRoguelike/Input/IMC_DefaultPlayer.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/ActionRoguelike/Projectiles/BP_MagicProjectile.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ActionRoguelike/Projectiles/BP_MagicProjectile.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ActionRoguelike/Projectlies/RogueProjectileMagic.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ActionRoguelike/Projectlies/RogueProjectileMagic.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ActionRoguelike/Projectlies/RogueProjectileMagic.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ActionRoguelike/Projectlies/RogueProjectileMagic.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ActionRoguelike/RogueCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ActionRoguelike/RogueCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ActionRoguelike/RogueCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ActionRoguelike/RogueCharacter.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +41,7 @@
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.7/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.7/Engine/Source/Runtime/Core/Public/Unix/UnixPlatformAtomics.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.7/Engine/Source/Runtime/Engine/Classes/Components/PrimitiveComponent.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.7/Engine/Source/Runtime/Engine/Private/Actor.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.7/Engine/Source/Runtime/Engine/Private/Components/PrimitiveComponent.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.7/Engine/Source/Runtime/Engine/Private/WorldPartition/WorldPartition.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.7/Engine/Source/Runtime/RenderCore/Private/UnifiedBuffer.cpp" root0="FORCE_HIGHLIGHTING" />
