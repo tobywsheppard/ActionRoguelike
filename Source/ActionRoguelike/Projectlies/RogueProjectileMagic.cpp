@@ -5,6 +5,7 @@
 
 #include "NiagaraComponent.h"
 #include "NiagaraFunctionLibrary.h"
+#include "Components/AudioComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "Components/SphereComponent.h"
 #include "GameFramework/ProjectileMovementComponent.h"
@@ -19,6 +20,9 @@ ARogueProjectileMagic::ARogueProjectileMagic()
 	
 	LoopedNiagaraComponent = CreateDefaultSubobject<UNiagaraComponent>(TEXT("LoopedNiagaraComponent"));
 	LoopedNiagaraComponent->SetupAttachment(SphereComponent);
+	
+	LoopedAudioComponent = CreateDefaultSubobject<UAudioComponent>(TEXT("LoopedAudioComponent"));
+	LoopedAudioComponent->SetupAttachment(SphereComponent);
 	
 	ProjectileMovementComponent = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("ProjectileMovementCom"));
 	ProjectileMovementComponent->InitialSpeed = 2000.0f;
@@ -38,12 +42,13 @@ void ARogueProjectileMagic::OnActorHit(UPrimitiveComponent* HitComponent, AActor
 	FVector NormalImpulse, const FHitResult& Hit)
 {
 	
-	// @todo: create our own damage type
-	TSubclassOf<UDamageType> DmgTypeClass = UDamageType::StaticClass();
+	FVector HitFromDirection = GetActorRotation().Vector();
 	
-	UGameplayStatics::ApplyDamage(OtherActor, 10.f, GetInstigatorController(), this,DmgTypeClass);
+	UGameplayStatics::ApplyPointDamage(OtherActor, 10.f, HitFromDirection, Hit, GetInstigatorController(), this,DmgTypeClass);
 	
 	UNiagaraFunctionLibrary::SpawnSystemAtLocation(this, ExplosionEffect, GetActorLocation());
+	
+	UGameplayStatics::PlaySoundAtLocation(this, ExplosionSound, GetActorLocation(), FRotator::ZeroRotator);
 	
 	Destroy();
 }

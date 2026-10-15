@@ -15,10 +15,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8c3361fa-3ea8-447e-b6a3-e20550f2b5b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ActionRoguelike.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActionRoguelike.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/ActionRoguelike/BP_PlayerCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ActionRoguelike/BP_PlayerCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ActionRoguelike/Input/IMC_DefaultPlayer.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ActionRoguelike/Input/IMC_DefaultPlayer.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/ActionRoguelike/Projectiles/BP_MagicProjectile.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ActionRoguelike/Projectiles/BP_MagicProjectile.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/SanderAudio/Sources/Player/Combat/MSS_Combat_Abilities_Primary_Cast.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/SanderAudio/Sources/Player/Combat/MSS_Combat_Abilities_Primary_Cast.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/SanderAudio/Sources/Player/VOFX/MSS_Player_VOFX_Primary_Cast.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/SanderAudio/Sources/Player/VOFX/MSS_Player_VOFX_Primary_Cast.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/tharlevfx_tutorials/CharacterFX/ParagonSourceAssets/Niagara/NS_Gideon_Primary_MuzzleFlash.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/tharlevfx_tutorials/CharacterFX/ParagonSourceAssets/Niagara/NS_Gideon_Primary_MuzzleFlash.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ActionRoguelike/Projectlies/RogueProjectileMagic.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ActionRoguelike/Projectlies/RogueProjectileMagic.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ActionRoguelike/Projectlies/RogueProjectileMagic.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ActionRoguelike/Projectlies/RogueProjectileMagic.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ActionRoguelike/RogueCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ActionRoguelike/RogueCharacter.cpp" afterDir="false" />
