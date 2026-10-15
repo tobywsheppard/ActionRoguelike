@@ -14,14 +14,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c3361fa-3ea8-447e-b6a3-e20550f2b5b0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Source/ActionRoguelike/World/RogueExplosiveBarrel.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/ActionRoguelike/World/RogueExplosiveBarrel.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ActionRoguelike.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActionRoguelike.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/ActionRoguelike/BP_PlayerCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ActionRoguelike/BP_PlayerCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ActionRoguelike/Projectiles/BP_MagicProjectile.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ActionRoguelike/Projectiles/BP_MagicProjectile.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/SanderAudio/Sources/Player/Combat/MSS_Combat_Abilities_Primary_Cast.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/SanderAudio/Sources/Player/Combat/MSS_Combat_Abilities_Primary_Cast.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/SanderAudio/Sources/Player/VOFX/MSS_Player_VOFX_Primary_Cast.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/SanderAudio/Sources/Player/VOFX/MSS_Player_VOFX_Primary_Cast.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/tharlevfx_tutorials/CharacterFX/ParagonSourceAssets/Niagara/NS_Gideon_Primary_MuzzleFlash.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/tharlevfx_tutorials/CharacterFX/ParagonSourceAssets/Niagara/NS_Gideon_Primary_MuzzleFlash.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ActionRoguelike/Projectlies/RogueProjectileMagic.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ActionRoguelike/Projectlies/RogueProjectileMagic.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ActionRoguelike/Projectlies/RogueProjectileMagic.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ActionRoguelike/Projectlies/RogueProjectileMagic.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ActionRoguelike/Input/IMC_DefaultPlayer.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ActionRoguelike/Input/IMC_DefaultPlayer.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ActionRoguelike/RogueCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ActionRoguelike/RogueCharacter.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ActionRoguelike/RogueCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ActionRoguelike/RogueCharacter.h" afterDir="false" />
     </list>
@@ -42,11 +40,15 @@
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.7/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.7/Engine/Source/Runtime/Core/Public/Unix/UnixPlatformAtomics.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.7/Engine/Source/Runtime/Engine/Classes/Components/PrimitiveComponent.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.7/Engine/Source/Runtime/Engine/Classes/GameFramework/Actor.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.7/Engine/Source/Runtime/Engine/Classes/PhysicsEngine/RadialForceComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.7/Engine/Source/Runtime/Engine/Private/Actor.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.7/Engine/Source/Runtime/Engine/Private/Components/PrimitiveComponent.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.7/Engine/Source/Runtime/Engine/Private/WorldPartition/WorldPartition.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.7/Engine/Source/Runtime/RenderCore/Private/UnifiedBuffer.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.7/Engine/Source/ThirdParty/nanoflann/nanoflann.Build.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ActionRoguelike/Projectlies/RogueExplosiveBarrel.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ActionRoguelike/Projectlies/RogueExplosiveBarrel.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
