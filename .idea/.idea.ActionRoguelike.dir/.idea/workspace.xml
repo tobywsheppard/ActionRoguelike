@@ -14,14 +14,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c3361fa-3ea8-447e-b6a3-e20550f2b5b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/ActionRoguelike/World/RogueExplosiveBarrel.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/ActionRoguelike/World/RogueExplosiveBarrel.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/ActionRoguelike/Core/RogueGameMode.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/ActionRoguelike/Core/RogueGameMode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/ActionRoguelike/Player/RogueInteractionComponent.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/ActionRoguelike/Player/RogueInteractionComponent.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/ActionRoguelike/Player/RoguePlayerController.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/ActionRoguelike/Player/RoguePlayerController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/ActionRoguelike/World/RogueItemChest.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/ActionRoguelike/World/RogueItemChest.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ActionRoguelike.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActionRoguelike.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ActionRoguelike/BP_PlayerCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ActionRoguelike/BP_PlayerCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ActionRoguelike/Input/IMC_DefaultPlayer.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ActionRoguelike/Input/IMC_DefaultPlayer.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ActionRoguelike/RogueCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ActionRoguelike/RogueCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ActionRoguelike/RogueCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ActionRoguelike/RogueCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ActionRoguelike/Maps/P_OpenWorldTestMap/A/OF/MZOU3PDPOZ412FFI5DRQXS.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ActionRoguelike/Maps/P_OpenWorldTestMap/A/OF/MZOU3PDPOZ412FFI5DRQXS.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +50,14 @@
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.7/Engine/Source/Runtime/Engine/Private/WorldPartition/WorldPartition.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.7/Engine/Source/Runtime/RenderCore/Private/UnifiedBuffer.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.7/Engine/Source/ThirdParty/nanoflann/nanoflann.Build.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/ActionRoguelike/Projectlies/RogueExplosiveBarrel.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/ActionRoguelike/Projectlies/RogueExplosiveBarrel.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ActionRoguelike/Core/RogueGameMode.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ActionRoguelike/Core/RogueGameMode.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ActionRoguelike/Player/RogueInteractionComponent.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ActionRoguelike/Player/RogueInteractionComponent.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ActionRoguelike/Player/RoguePlayerController.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ActionRoguelike/Player/RoguePlayerController.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ActionRoguelike/World/RogueItemChest.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ActionRoguelike/World/RogueItemChest.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
