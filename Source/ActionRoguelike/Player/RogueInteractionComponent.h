@@ -16,8 +16,13 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category="Interaction")
 	float InteractionRadius = 800;
 	
+	UPROPERTY()
+	TObjectPtr<AActor> SelectedActor;
+ 	
 public:
-	// Sets default values for this component's properties
+	
+	void Interact();
+	
 	URogueInteractionComponent();
 
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType,FActorComponentTickFunction* ThisTickFunction) override;

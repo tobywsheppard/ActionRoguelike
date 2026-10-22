@@ -14,8 +14,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c3361fa-3ea8-447e-b6a3-e20550f2b5b0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Source/ActionRoguelike/Core/RogueInteractionInterface.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/ActionRoguelike/Core/RogueInteractionInterface.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ActionRoguelike.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActionRoguelike.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ActionRoguelike/Maps/P_OpenWorldTestMap/E/TL/WEGDX6199S5M5BEAX4BNL9.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ActionRoguelike/Input/IMC_DefaultPlayer.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ActionRoguelike/Input/IMC_DefaultPlayer.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ActionRoguelike/ActionRoguelike.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ActionRoguelike/ActionRoguelike.Build.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ActionRoguelike/Player/RogueInteractionComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ActionRoguelike/Player/RogueInteractionComponent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ActionRoguelike/Player/RogueInteractionComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ActionRoguelike/Player/RogueInteractionComponent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ActionRoguelike/Player/RoguePlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ActionRoguelike/Player/RoguePlayerController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ActionRoguelike/Player/RoguePlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ActionRoguelike/Player/RoguePlayerController.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ActionRoguelike/World/RogueItemChest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ActionRoguelike/World/RogueItemChest.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ActionRoguelike/World/RogueItemChest.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ActionRoguelike/World/RogueItemChest.h" afterDir="false" />
     </list>
@@ -45,6 +52,8 @@
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.7/Engine/Source/ThirdParty/nanoflann/nanoflann.Build.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ActionRoguelike/Core/RogueGameMode.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ActionRoguelike/Core/RogueGameMode.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ActionRoguelike/Core/RogueInteractionInterface.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ActionRoguelike/Core/RogueInteractionInterface.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ActionRoguelike/Player/RogueInteractionComponent.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ActionRoguelike/Player/RogueInteractionComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ActionRoguelike/Player/RoguePlayerController.cpp" root0="FORCE_HIGHLIGHTING" />

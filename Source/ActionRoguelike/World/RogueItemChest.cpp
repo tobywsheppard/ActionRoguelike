@@ -18,9 +18,10 @@ ARogueItemChest::ARogueItemChest()
 }
 
 
-void ARogueItemChest::BeginPlay()
+
+void ARogueItemChest::Interact()
 {
-	Super::BeginPlay();
+	// Play Animation
 	
 	SetActorTickEnabled(true);
 }
