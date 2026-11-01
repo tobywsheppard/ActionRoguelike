@@ -58,14 +58,26 @@ void ARogueExplosiveBarrel::Explode()
 		return;
 	}
 	
+	if (BurningEffectComponent)
+	{
+		BurningEffectComponent->Deactivate();
+	}
+	
+	if (BurningSoundComponent)
+	{
+		BurningSoundComponent->Stop();
+	}
+	
 	bExploded = true;
-	
-	BurningEffectComponent->Deactivate();
-	BurningSoundComponent->Deactivate();
-	
-	UNiagaraFunctionLibrary::SpawnSystemAtLocation(this, ExplosionEffect, GetActorLocation());
-	UGameplayStatics::PlaySoundAtLocation(this, ExplosionSound, GetActorLocation(), FRotator::ZeroRotator);
 	
 	RadialForceComponent->FireImpulse();
 	
+	BurningEffectComponent->Deactivate();
+	BurningSoundComponent->Stop();
+	
+	BarrelMesh->AddImpulse(FVector::UpVector * 1000, NAME_None, true);
+	BarrelMesh->AddAngularImpulseInDegrees(FVector::RightVector * 1000, NAME_None, true);
+	
+	UNiagaraFunctionLibrary::SpawnSystemAtLocation(this, ExplosionEffect, GetActorLocation());
+	UGameplayStatics::PlaySoundAtLocation(this, ExplosionSound, GetActorLocation(), FRotator::ZeroRotator);
 }

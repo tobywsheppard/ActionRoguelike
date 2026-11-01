@@ -50,6 +50,7 @@ protected:
 	FTimerHandle ExplodeTimerHandle;
 
 	bool bExploded = false;
-
+	
+	UFUNCTION(BlueprintCallable)
 	void Explode();
 };
