@@ -16,6 +16,8 @@
     <list default="true" id="8c3361fa-3ea8-447e-b6a3-e20550f2b5b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ActionRoguelike.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActionRoguelike.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/ActionRoguelike/World/BP_ItemChest.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ActionRoguelike/World/BP_ItemChest.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ActionRoguelike/Core/RogueInteractionInterface.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ActionRoguelike/Core/RogueInteractionInterface.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ActionRoguelike/Player/RogueInteractionComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ActionRoguelike/Player/RogueInteractionComponent.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ActionRoguelike/World/RogueItemChest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ActionRoguelike/World/RogueItemChest.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ActionRoguelike/World/RogueItemChest.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ActionRoguelike/World/RogueItemChest.h" afterDir="false" />
     </list>
