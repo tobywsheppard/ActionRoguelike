@@ -4,7 +4,7 @@
 #include "RoguePlayerCharacter.h"
 #include "EnhancedInputComponent.h"
 #include "NiagaraFunctionLibrary.h"
-#include "ActionRoguelike/Projectlies/RogueProjectileMagic.h"
+#include "ActionRoguelike/Projectiles/RogueProjectileMagic.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Kismet/GameplayStatics.h"
