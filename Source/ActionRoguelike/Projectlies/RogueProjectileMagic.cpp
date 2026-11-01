@@ -8,15 +8,12 @@
 #include "Components/AudioComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "Components/SphereComponent.h"
-#include "GameFramework/ProjectileMovementComponent.h"
+
 
 // Sets default values
 ARogueProjectileMagic::ARogueProjectileMagic()
 {
-	SphereComponent = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComponent"));
-	RootComponent = SphereComponent;
-	SphereComponent->SetSphereRadius(16.0f);
-	SphereComponent->SetCollisionProfileName("Projectile");
+	
 	
 	LoopedNiagaraComponent = CreateDefaultSubobject<UNiagaraComponent>(TEXT("LoopedNiagaraComponent"));
 	LoopedNiagaraComponent->SetupAttachment(SphereComponent);
@@ -24,9 +21,6 @@ ARogueProjectileMagic::ARogueProjectileMagic()
 	LoopedAudioComponent = CreateDefaultSubobject<UAudioComponent>(TEXT("LoopedAudioComponent"));
 	LoopedAudioComponent->SetupAttachment(SphereComponent);
 	
-	ProjectileMovementComponent = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("ProjectileMovementCom"));
-	ProjectileMovementComponent->InitialSpeed = 2000.0f;
-	ProjectileMovementComponent->ProjectileGravityScale = 0.0f;
 }
 
 void ARogueProjectileMagic::PostInitializeComponents()
